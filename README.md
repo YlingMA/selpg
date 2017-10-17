@@ -6,7 +6,7 @@ $ selpg -s1 -e1 input_file
  
 注意：这里的test.txt里的内容为good!\n\ntrue!
 结果正确，与C语言源代码一致
-
+![image](https://github.com/YlingMA/selpg/tree/master/image/1.png)
 2.$ selpg -s1 -e1 < input_file
 这一步出现了错误
 由于我在程序中，不同的条件下赋予fin不同的值，导致后面无法用前面得到的fin来进行读取文件的操作
