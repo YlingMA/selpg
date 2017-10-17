@@ -10,6 +10,7 @@
 2.$ selpg -s1 -e1 < input_file
 这一步出现了错误
 由于我在程序中，不同的条件下赋予fin不同的值，导致后面无法用前面得到的fin来进行读取文件的操作
+
 3.$ other_command | selpg -s10 -e20
 “other_command”的标准输出被 shell／内核重定向至 selpg 的标准输入。将第 10 页到第 20 页写至 selpg 的标准输出（屏幕）。
 
