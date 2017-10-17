@@ -1,7 +1,7 @@
 设计思想：全代码设计思想沿袭C语言源码。
 ========
 
-###1.$ selpg -s1 -e1 input_file
+#1.$ selpg -s1 -e1 input_file
  
 注意：这里的test.txt里的内容为good!\n\ntrue!
 结果正确，与C语言源代码一致
